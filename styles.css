@@ -1,14 +1,23 @@
 body {
-  background: #F6F1EE;
+  background: #4F4A45;
+  height: 100%;
   min-width: 500px;
   margin: 0;
+  overflow: visible;
 }
 
 main {
-  color: #4F4A45;
+  color: #6C5F5B;
   height: 100%;
   width: 100%;
-  margin: 10px 0;
+  margin: 0 0;
+}
+
+.content {
+  max-width: 700px;
+  min-width: 500px;
+  margin: 0 auto;
+  background: #F6F1EE;
 }
 
 #image {
@@ -35,11 +44,11 @@ main {
 
 .backing {
   width: 100%;
-  background: #4F4A45;
+  background: #6C5F5B;
 }
 
 #text-section {
-  margin: 10px auto 10px;
+  margin: 0 auto 0;
   max-width: 500px;
   font: 18px Times;
 }
