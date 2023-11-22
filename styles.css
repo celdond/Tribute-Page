@@ -6,25 +6,30 @@ body {
   overflow: visible;
 }
 
+li {
+  margin-top: 10px;
+}
+
 main {
   color: #6C5F5B;
   height: 100%;
   width: 100%;
-  margin: 0 0;
+  margin: 0;
 }
 
 .content {
   max-width: 700px;
   min-width: 500px;
-  margin: 0 auto;
+  height: full;
+  margin: 0 auto 0;
+  padding: 20px 0;
   background: #F6F1EE;
 }
 
 #image {
   display: block;
-  width: 50%;
   max-width: 100%;
-  min-width: 500px;
+  min-width: 400px;
   margin: auto;
 }
 
@@ -49,12 +54,19 @@ main {
 
 #text-section {
   margin: 0 auto 0;
-  max-width: 500px;
+  max-width: 420px;
   font: 18px Times;
 }
 
 #features-descriptor {
   font-weight: bold;
   font-size: 26px;
+  text-align: center;
+}
+
+#more-info {
+  margin: 25px auto;
+  font: 20px Times;
+  max-width: 80%;
   text-align: center;
 }
